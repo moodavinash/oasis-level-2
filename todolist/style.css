@@ -1,0 +1,59 @@
+html {
+    font-size: 15px;
+  }
+  
+  body {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        from(#c3c9ae),
+        to(#5949f2)
+      )
+      fixed;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  .card {
+    background-color: #bfde0e;
+  }
+  .card-body,
+  ul {
+    background-color: rgb(18, 14, 27);
+    min-height: 0px;
+  }
+  .form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .list-item {
+    color: rgb(227, 221, 221);
+  }
+  .list-group-item {
+    background-color: inherit;
+    border: none;
+  }
+  .under-list-item {
+    font-size: 0.9rem;
+  }
+  .under-list-item .list-group-item {
+    color: rgb(80, 8, 251);
+  }
+  
+  .under-list-input input {
+    height: calc(1em + 0.75rem);
+  }
+  
+  .line-throught {
+    text-decoration: line-through;
+  }
